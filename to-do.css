@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#new-task {
+  width: 300px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#add-task {
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+}
+
+#tasks {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#tasks li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#tasks li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+#tasks li label {
+  flex-grow: 1;
+}
+
+#tasks li button {
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#tasks li button:hover {
+  background-color: #ccc;
+}
+
+.edit {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.delete {
+  background-color: #ff0000;
+  color: #fff;
+}
